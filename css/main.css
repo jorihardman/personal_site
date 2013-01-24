@@ -60,9 +60,43 @@ textarea {
  Author's custom styles
  ========================================================================== */
 
-#content {
-  width: 1000px;
+html {
+  height: 100%;
+  width: 100%;
+}
 
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../img/crissXcross.png');
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: table;
+}
+
+#content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#greeting {
+  font-size: 50px;
+}
+
+#greeting .hello {
+  font-family: Satisfy, sans-serif;
+  color: #00AEEF;
+  font-size: 60px;
+}
+
+#subtext {
+  font-size: 25px;
+}
+
+#subtext .elegant {
+  color: #FF8500;
+  font-family: Satisfy, sans-serif;
 }
 
 /* ==========================================================================

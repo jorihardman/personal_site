@@ -88,15 +88,26 @@ body {
   font-family: Satisfy, sans-serif;
   color: #00AEEF;
   font-size: 60px;
+  line-height: 1em;
 }
 
 #subtext {
+  margin-top: 5px;
   font-size: 25px;
+  line-height: 1em;
 }
 
 #subtext .elegant {
   color: #FF8500;
   font-family: Satisfy, sans-serif;
+}
+
+#social_networks {
+  margin-top: 25px;
+}
+
+#social_networks a {
+  margin: 5px;
 }
 
 /* ==========================================================================
